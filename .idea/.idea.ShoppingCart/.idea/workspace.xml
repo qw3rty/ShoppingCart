@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83e279f5-a917-4d31-b4d2-2a73931a3b9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ShoppingCart/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ShoppingCart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Components/Constants/ResourceConstantsExceptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CartExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CategoryExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/ProductExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Components/Helper/StringHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDiscountDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CartDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CategoryDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/ProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Base/Implementations/ServiceBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Base/Interfaces/IService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Campaigns/Implementations/CampaignService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Campaigns/Interfaces/ICampaignService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Carts/Implementations/CartService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Carts/Interfaces/ICartService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Categories/Implementations/CategoryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Categories/Interfaces/ICategoryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Coupons/Implementations/CouponService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Coupons/Interfaces/ICouponService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Delivery/Implementations/DeliveryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Delivery/Interfaces/IDeliveryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/AmountCampaignDiscountRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCampaignDiscountRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCouponDiscountRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IAmountCampaignDiscountRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IRateCampaignDiscountRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IRateCouponDiscountRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/ICampaignDiscountRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/ICouponDiscountRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/IDiscountService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Products/Implementations/ProductService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/Services/Products/Interfaces/IProductService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/ShoppingCart.Core.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/obj/Debug/ShoppingCart.Core.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Core/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/AmountCampaignRuleConditions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/Campaign.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/RateCampaignRuleConditions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/Carts/Cart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/Categories/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/Coupons/Coupon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/DomainBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/Products/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Domain/ShoppingCart.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Test/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Test/ShoppingCart.Test.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Test/Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Test/obj/Debug/ShoppingCart.Test.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.Test/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart.sln" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Test/Tests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <marker date="1563253027952" expanded="true" signature="6:613" ph="..." />
+                <marker date="1563253027952" expanded="true" signature="642:6304" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="692:6302" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="707:1091" ph="Properties" />
+                <marker date="1563253027952" expanded="true" signature="1143:1864" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="1918:2038" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="2091:2281" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="2331:2433" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="2492:2778" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="2841:3073" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="3131:3555" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="3603:3781" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="3851:4061" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="4121:4298" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="4362:4541" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="4603:4786" ph="{...}" />
+                <marker date="1563253027952" expanded="false" signature="4797:6296" ph="Utils" />
+                <marker date="1563253027952" expanded="true" signature="4852:5627" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="5678:6041" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="5742:6030" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="6093:6276" ph="{...}" />
+                <marker date="1563253027952" expanded="true" signature="6157:6265" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+              <folding>
+                <marker date="1563253931529" expanded="true" signature="6:345" ph="..." />
+                <marker date="1563253931529" expanded="true" signature="409:5708" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="476:5706" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="580:671" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="767:855" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="964:1062" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="1125:1606" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="1273:1522" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="1729:2072" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="2162:2416" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="2502:2626" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="2710:2832" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="2961:3375" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="3101:3334" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="3506:3855" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="3647:3814" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="3989:4096" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="4262:5700" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="4480:4996" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="4630:4982" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="5143:5661" ph="{...}" />
+                <marker date="1563253931529" expanded="true" signature="5293:5647" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDiscountDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1563251186528" expanded="true" signature="98:252" ph="{...}" />
+                <marker date="1563251186528" expanded="true" signature="137:250" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding>
+                <marker date="1563251140929" expanded="true" signature="98:540" ph="{...}" />
+                <marker date="1563251140929" expanded="true" signature="129:538" ph="{...}" />
+                <marker date="1563251140929" expanded="true" signature="206:283" ph="{...}" />
+                <marker date="1563251140929" expanded="true" signature="403:532" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CartDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding>
+                <marker date="1563226058296" expanded="true" signature="6:88" ph="..." />
+                <marker date="1563226058296" expanded="true" signature="132:393" ph="{...}" />
+                <marker date="1563226058296" expanded="true" signature="159:391" ph="{...}" />
+                <marker date="1563226058296" expanded="true" signature="190:260" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CategoryDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <marker date="1563206516151" expanded="true" signature="77:273" ph="{...}" />
+                <marker date="1563206516151" expanded="true" signature="108:271" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/ProductDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <marker date="1563235450326" expanded="true" signature="77:645" ph="{...}" />
+                <marker date="1563235450326" expanded="true" signature="107:643" ph="{...}" />
+                <marker date="1563235450326" expanded="true" signature="398:637" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CartExtension.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <marker date="1563252981896" expanded="true" signature="6:289" ph="..." />
+                <marker date="1563252981896" expanded="true" signature="340:1053" ph="{...}" />
+                <marker date="1563252981896" expanded="true" signature="380:1051" ph="{...}" />
+                <marker date="1563252981896" expanded="true" signature="440:739" ph="{...}" />
+                <marker date="1563252981896" expanded="true" signature="556:728" ph="{...}" />
+                <marker date="1563252981896" expanded="true" signature="808:1045" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CategoryExtension.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding>
+                <marker date="1563250364937" expanded="false" signature="6:310" ph="..." />
+                <marker date="1563250364937" expanded="true" signature="361:3679" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="405:3677" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="473:788" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="593:777" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="851:1050" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="1111:2084" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="1234:2074" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="2146:3671" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="2304:3635" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="2436:2971" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="2518:2949" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="3088:3620" ph="{...}" />
+                <marker date="1563250364937" expanded="true" signature="3170:3598" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCampaignDiscountRule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <marker date="1563253883900" expanded="false" signature="6:216" ph="..." />
+                <marker date="1563253883900" expanded="true" signature="294:1375" ph="{...}" />
+                <marker date="1563253883900" expanded="true" signature="366:1373" ph="{...}" />
+                <marker date="1563253883900" expanded="true" signature="445:535" ph="{...}" />
+                <marker date="1563253883900" expanded="true" signature="662:1065" ph="{...}" />
+                <marker date="1563253883900" expanded="true" signature="1168:1319" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>category</find>
+      <find>static</find>
+      <find>GetDiscountRuleList</find>
+      <find>CalculateDiscount</find>
+      <find>CalculateAmountCampaignDiscount</find>
+      <find>GetMaximumAmountDiscount</find>
+      <find>GetCampaignDiscountRule</find>
+      <find>GetAmountCampaignDiscountRule</find>
+      <find>_discountService</find>
+      <find>test</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Campaigns/Interfaces/ICampaignService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCouponDiscountRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Carts/Interfaces/ICartService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Categories/Interfaces/ICategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Products/Interfaces/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Campaigns/Implementations/CampaignService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Carts/Implementations/CartService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Categories/Implementations/CategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/80/5764ba98/WorkItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Products/Implementations/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Constants/ResourceConstantsExceptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Helper/StringHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/659CD5F0-C4CE-410C-B23A-6CADD71BB76F/69/3c91aba8/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Delivery/Interfaces/IDeliveryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Delivery/Implementations/DeliveryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/AmountCampaignRuleConditions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/RateCampaignRuleConditions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CartDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Domain/DomainBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CartExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/Campaign.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/ProductExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/ProductDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CategoryExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CategoryDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Domain/Carts/Cart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Domain/Categories/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/659CD5F0-C4CE-410C-B23A-6CADD71BB76F/1e/1ada059e/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Domain/Products/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/659CD5F0-C4CE-410C-B23A-6CADD71BB76F/b1/a1d3def5/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Domain/Coupons/Coupon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/IDiscountService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/ICampaignDiscountRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IRateCampaignDiscountRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IAmountCampaignDiscountRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/AmountCampaignDiscountRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCampaignDiscountRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Base/Implementations/ServiceBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Coupons/Implementations/CouponService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Coupons/Interfaces/ICouponService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Test/Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/ICouponDiscountRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Test/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IRateCouponDiscountRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Test/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Base/Interfaces/IService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDiscountDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/659CD5F0-C4CE-410C-B23A-6CADD71BB76F/c7/7381b7f9/TextWriter.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Category/Category.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Carts/CartItem.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/IDiscountRules.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/IRateDiscount.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/IRateDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/CampaignRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IAmountDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Components/Factories/Interfaces/ICampaignFactory.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Components/Factories/Implementations/CampaignFactory.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/IDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IRateDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CampaignsExtension.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CategoryDto.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/AmountDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Coupons/Coupon.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IRateCampaignDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Campaigns/Implementations/CampaignService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Campaigns/Interfaces/ICampaignService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Coupons/Interfaces/ICouponService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Coupons/Implementations/CouponService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Products/Implementations/ProductService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CartItemDto.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Categories/Implementations/CategoryService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/RateCampaignRuleConditions.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CartDto.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Dtos/BaseDto.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Delivery/Interfaces/IDeliveryService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Delivery/Implementations/DeliveryService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/ProductDto.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CategoryExtension.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Components/Helper/StringHelper.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/AmountDiscountRuleDto.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Categories/Interfaces/ICategoryService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/AmountCampaignRuleConditions.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/Campaign.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Categories/Category.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDto.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/IDiscountService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Carts/Interfaces/ICartService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Carts/Implementations/CartService.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Carts/Cart.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCouponDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Domain/Products/Product.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/ProductExtension.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CartExtension.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Test/Tests.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/ICampaignDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/AmountCampaignDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCampaignDiscountRule.cs" />
+        <option value="$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="921" />
+    <option name="y" value="143" />
+    <option name="width" value="1487" />
+    <option name="height" value="1142" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ShoppingCart" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ShoppingCart" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ShoppingCart.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ShoppingCart" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ShoppingCart.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Components" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ShoppingCart" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ShoppingCart.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Components" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Extensions" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ShoppingCart" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ShoppingCart.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ShoppingCart" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ShoppingCart.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Discounts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ShoppingCart" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ShoppingCart.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Discounts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Implementations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83e279f5-a917-4d31-b4d2-2a73931a3b9b" name="Default Changelist" comment="" />
+      <created>1563118893664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563118893664</updated>
+      <workItem from="1563118895620" duration="54181000" />
+      <workItem from="1563250274012" duration="3997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58178000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="921" y="143" width="1487" height="1142" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23686054" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8472505" weight="0.30649856" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32984293" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.498167" weight="0.32783705" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.3297769" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49960032" weight="0.32783705" />
+      <window_info anchor="bottom" id="Change Signature" order="11" sideWeight="0.5205703" side_tool="true" weight="0.32834706" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" sideWeight="0.47942972" weight="0.47914645" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32984293" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.47722495" side_tool="true" weight="0.39767218" />
+      <window_info anchor="bottom" id="Build" order="16" sideWeight="0.49124235" visible="true" weight="0.3258972" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="RiderUnitTests">
+        <watch expression=" cart.ProductList.GroupBy(x =&gt; x.Category.Title).Count()" language="C#" custom="RiderImportsList:" />
+        <watch expression="cart.ProductList.GroupBy(x =&gt; x.Title).Count()" language="C#" custom="RiderImportsList:" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>cart.ProductList.GroupBy(x =&gt; x.Title).Count()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cart.ProductList.GroupBy(x =&gt; x.Category.Title).Count()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(cartTotal - campaignDiscount) * coupon.Percentage / 100</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>printResult</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.FirstOrDefault().Rule.GetType().Name</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.FirstOrDefault().Rule.GetType().Name)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.Select(z =&gt;
+                        z.Rule.GetType().Name)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.FirstOrDefault(z =&gt;
+                        z.Rule.GetType().Name == nameof(IRateCampaignDiscountRule) &amp;&amp; z.Discount == currentDiscount)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nameof(x)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/659CD5F0-C4CE-410C-B23A-6CADD71BB76F/b1/a1d3def5/List`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="644" column="128" selection-start-line="644" selection-start-column="128" selection-end-line="644" selection-end-column="128" />
+          <folding>
+            <marker date="1563219717673" expanded="true" signature="0:333" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1563219717673" expanded="false" signature="341:455" ph="..." />
+            <marker date="1563219717673" expanded="true" signature="493:69603" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="498:804" ph="///Represents a strongly typed list of objects that can be accessed by index. Provides methods to search, sort, a ... " />
+            <marker date="1563219717673" expanded="true" signature="1091:69601" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="1536:1589" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="1595:1993" ph="///Initializes a new instance of the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; class that is empty and h ... " />
+            <marker date="1563219717673" expanded="true" signature="2052:2340" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="2346:2829" ph="///Initializes a new instance of the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; class that contains eleme ... " />
+            <marker date="1563219717673" expanded="true" signature="2901:3537" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="3097:3374" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="3161:3226" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="3239:3366" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="3385:3531" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="3543:4172" ph="///Gets or sets the total number of elements the internal data structure can hold without resizing. ... " />
+            <marker date="1563219717673" expanded="true" signature="4225:4883" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="4266:4317" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="4352:4877" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="4607:4811" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="4889:5127" ph="///Gets the number of elements contained in the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="5177:5267" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5218:5261" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5324:5409" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5365:5403" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5474:5559" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5515:5553" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5615:5700" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5656:5694" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5766:5851" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5807:5845" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5913:6139" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="5954:6133" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="6145:6617" ph="///Gets or sets the element at the specified index. ... " />
+            <marker date="1563219717673" expanded="true" signature="6675:7095" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="6716:6872" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="6907:7089" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="7153:7298" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="7361:7808" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="7402:7455" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="7490:7802" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="7600:7655" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="7695:7794" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="7814:8111" ph="///Adds an object to the end of the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="8168:8332" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="8393:8704" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="8495:8539" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="8577:8669" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="8710:9312" ph="///Adds the elements of the specified collection to the end of the &lt;see cref=&quot;T:System.Collections.Generic.List`1 ... " />
+            <marker date="1563219717673" expanded="true" signature="9393:9453" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="9459:9747" ph="///Returns a read-only &lt;see cref=&quot;T:System.Collections.ObjectModel.ReadOnlyCollection`1&quot; /&gt; wrapper for the curre ... " />
+            <marker date="1563219717673" expanded="true" signature="9822:9891" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="9897:11891" ph="///Searches a range of elements in the sorted &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; for an element u ... " />
+            <marker date="1563219717673" expanded="true" signature="12001:12520" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="12526:13608" ph="///Searches the entire sorted &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; for an element using the default ... " />
+            <marker date="1563219717673" expanded="true" signature="13673:13759" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="13765:15193" ph="///Searches the entire sorted &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; for an element using the specifi ... " />
+            <marker date="1563219717673" expanded="true" signature="15281:15356" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="15519:15677" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="15551:15648" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="15683:16167" ph="///Determines whether an element is in the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="16229:16716" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="16268:16459" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="16333:16429" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="16588:16690" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="16783:16899" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="16905:17661" ph="///Converts the elements in the current &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; to another type, and r ... " />
+            <marker date="1563219717673" expanded="true" signature="17739:18104" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="18110:18926" ph="///Copies the entire &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; to a compatible one-dimensional array, st ... " />
+            <marker date="1563219717673" expanded="true" signature="18989:19030" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="19117:19515" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="19269:19360" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="19404:19509" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="19521:21199" ph="///Copies a range of elements from the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; to a compatible one-dim ... " />
+            <marker date="1563219717673" expanded="true" signature="21300:21516" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="21522:22621" ph="///Copies the entire &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; to a compatible one-dimensional array, st ... " />
+            <marker date="1563219717673" expanded="true" signature="22700:22793" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="22835:23099" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="23105:23804" ph="///Determines whether the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; contains elements that match the con ... " />
+            <marker date="1563219717673" expanded="true" signature="23876:23930" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="23936:24604" ph="///Searches for an element that matches the conditions defined by the specified predicate, and returns the first  ... " />
+            <marker date="1563219717673" expanded="true" signature="24671:24954" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="24830:24922" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="24960:25599" ph="///Retrieves all the elements that match the conditions defined by the specified predicate. ... " />
+            <marker date="1563219717673" expanded="true" signature="25675:25999" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="25873:25971" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="26005:26694" ph="///Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-b ... " />
+            <marker date="1563219717673" expanded="true" signature="26768:26831" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="26837:27901" ph="///Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-b ... " />
+            <marker date="1563219717673" expanded="true" signature="27991:28076" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="28082:29471" ph="///Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-b ... " />
+            <marker date="1563219717673" expanded="true" signature="29572:30227" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="30125:30204" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="30233:30899" ph="///Searches for an element that matches the conditions defined by the specified predicate, and returns the last o ... " />
+            <marker date="1563219717673" expanded="true" signature="30970:31258" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="31134:31226" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="31264:31951" ph="///Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-b ... " />
+            <marker date="1563219717673" expanded="true" signature="32029:32109" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="32115:33187" ph="///Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-b ... " />
+            <marker date="1563219717673" expanded="true" signature="33281:33361" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="33367:34761" ph="///Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-b ... " />
+            <marker date="1563219717673" expanded="true" signature="34866:35725" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="34997:35173" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="35623:35702" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="35731:36345" ph="///Performs the specified action on each element of the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="36416:36943" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="36949:37222" ph="///Returns an enumerator that iterates through the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="37297:37352" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="37432:37504" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="37578:37647" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="37653:38535" ph="///Creates a shallow copy of a range of elements in the source &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; ... " />
+            <marker date="1563219717673" expanded="true" signature="38614:39229" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="39235:39790" ph="///Searches for the specified object and returns the zero-based index of the first occurrence within the entire &lt; ... " />
+            <marker date="1563219717673" expanded="true" signature="39850:39927" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="39992:40104" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="40110:41148" ph="///Searches for the specified object and returns the zero-based index of the first occurrence within the range of ... " />
+            <marker date="1563219717673" expanded="true" signature="41219:41461" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="41467:42860" ph="///Searches for the specified object and returns the zero-based index of the first occurrence within the range of ... " />
+            <marker date="1563219717673" expanded="true" signature="42942:43345" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="43351:43944" ph="///Inserts an element into the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; at the specified index. ... " />
+            <marker date="1563219717673" expanded="true" signature="44015:44494" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="44570:44862" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="44672:44726" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="44764:44856" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="44868:45810" ph="///Inserts the elements of a collection into the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; at the specif ... " />
+            <marker date="1563219717673" expanded="true" signature="45905:47127" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="46268:46996" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="46331:46988" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="46562:46781" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="46796:46947" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="47007:47098" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="47133:47690" ph="///Searches for the specified object and returns the zero-based index of the last occurrence within the entire &lt;s ... " />
+            <marker date="1563219717673" expanded="true" signature="47754:47877" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="47883:48895" ph="///Searches for the specified object and returns the zero-based index of the last occurrence within the range of  ... " />
+            <marker date="1563219717673" expanded="true" signature="48970:49191" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="49197:50558" ph="///Searches for the specified object and returns the zero-based index of the last occurrence within the range of  ... " />
+            <marker date="1563219717673" expanded="true" signature="50644:51448" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="51454:52068" ph="///Removes the first occurrence of a specific object from the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="52128:52268" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="52333:52435" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="52441:52942" ph="///Removes all the elements that match the conditions defined by the specified predicate. ... " />
+            <marker date="1563219717673" expanded="true" signature="53016:53712" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="53340:53532" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="53718:54175" ph="///Removes the element at the specified index of the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="54240:54571" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="54577:55269" ph="///Removes a range of elements from the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="55348:56098" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="56282:56329" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="56335:57002" ph="///Reverses the order of the elements in the specified range. ... " />
+            <marker date="1563219717673" expanded="true" signature="57077:57596" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="57602:58071" ph="///Sorts the elements in the entire &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; using the default comparer ... " />
+            <marker date="1563219717673" expanded="true" signature="58123:58188" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="58194:59243" ph="///Sorts the elements in the entire &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; using the specified compar ... " />
+            <marker date="1563219717673" expanded="true" signature="59316:59370" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="59376:60930" ph="///Sorts the elements in a range of elements in &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; using the spec ... " />
+            <marker date="1563219717673" expanded="true" signature="61025:61546" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="61552:62217" ph="///Sorts the elements in the entire &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; using the specified &lt;see c ... " />
+            <marker date="1563219717673" expanded="true" signature="62293:62557" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="62563:62808" ph="///Copies the elements of the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; to a new array. ... " />
+            <marker date="1563219717673" expanded="true" signature="62862:63012" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="63255:63384" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="63390:64143" ph="///Determines whether every element in the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt; matches the conditi ... " />
+            <marker date="1563219717673" expanded="true" signature="64219:64483" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="64378:64458" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="64540:64612" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="64724:66715" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="64834:64929" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="64953:65066" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="64973:65058" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65096:65203" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65116:65195" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65234:65308" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65335:65407" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65443:65529" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65582:65672" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65706:65790" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65837:65938" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="65991:66097" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="66129:66342" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="66149:66235" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="66247:66334" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="66376:66461" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="66506:66590" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="66629:66709" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="66944:69597" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="67096:67236" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="67423:67439" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="67447:67920" ph="///Advances the enumerator to the next element of the &lt;see cref=&quot;T:System.Collections.Generic.List`1&quot; /&gt;. ... " />
+            <marker date="1563219717673" expanded="true" signature="67980:68244" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="68279:68551" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="68559:68783" ph="///Gets the element at the current position of the enumerator. ... " />
+            <marker date="1563219717673" expanded="true" signature="68837:68941" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="68882:68933" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="69006:69296" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="69051:69288" ph="{...}" />
+            <marker date="1563219717673" expanded="true" signature="69359:69591" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/BaseDto.cs" />
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Test/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Constants/ResourceConstantsExceptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <marker date="1563195725761" expanded="true" signature="48:262" ph="{...}" />
+            <marker date="1563195725761" expanded="true" signature="102:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Factories/Implementations/CampaignFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Factories/Interfaces/ICampaignFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/AmountDiscountRuleDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Helper/StringHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1563212605968" expanded="true" signature="6:66" ph="..." />
+            <marker date="1563212605968" expanded="true" signature="113:427" ph="{...}" />
+            <marker date="1563212605968" expanded="true" signature="152:425" ph="{...}" />
+            <marker date="1563212605968" expanded="true" signature="233:419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/RateDiscountRuleDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Base/Implementations/ServiceBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1563134063747" expanded="true" signature="108:222" ph="{...}" />
+            <marker date="1563134063747" expanded="true" signature="150:220" ph="{...}" />
+            <marker date="1563134063747" expanded="true" signature="194:214" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Base/Interfaces/IService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <marker date="1563133895764" expanded="true" signature="67:134" ph="{...}" />
+            <marker date="1563133895764" expanded="true" signature="113:132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Campaigns/Interfaces/ICampaignService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1563207682611" expanded="true" signature="6:144" ph="..." />
+            <marker date="1563207682611" expanded="true" signature="203:336" ph="{...}" />
+            <marker date="1563207682611" expanded="true" signature="252:334" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Coupons/Interfaces/ICouponService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1563207832793" expanded="true" signature="6:144" ph="..." />
+            <marker date="1563207832793" expanded="true" signature="201:330" ph="{...}" />
+            <marker date="1563207832793" expanded="true" signature="250:328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Categories/Interfaces/ICategoryService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <marker date="1563250717647" expanded="true" signature="6:123" ph="..." />
+            <marker date="1563250717647" expanded="true" signature="183:420" ph="{...}" />
+            <marker date="1563250717647" expanded="true" signature="234:418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Delivery/Implementations/DeliveryService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <marker date="1563234809871" expanded="true" signature="6:167" ph="..." />
+            <marker date="1563234809871" expanded="true" signature="230:701" ph="{...}" />
+            <marker date="1563234809871" expanded="true" signature="297:699" ph="{...}" />
+            <marker date="1563234809871" expanded="true" signature="414:693" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Delivery/Interfaces/IDeliveryService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1563234786688" expanded="true" signature="6:89" ph="..." />
+            <marker date="1563234786688" expanded="true" signature="147:316" ph="{...}" />
+            <marker date="1563234786688" expanded="true" signature="197:314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/ICouponDiscountRule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <marker date="1563207278563" expanded="true" signature="57:114" ph="{...}" />
+            <marker date="1563207278563" expanded="true" signature="100:112" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IRateCouponDiscountRule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <marker date="1563207516178" expanded="true" signature="71:239" ph="{...}" />
+            <marker date="1563207516178" expanded="true" signature="140:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IRateCampaignDiscountRule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1563207490654" expanded="true" signature="71:198" ph="{...}" />
+            <marker date="1563207490654" expanded="true" signature="144:196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/DiscountRules/IAmountCampaignDiscountRule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+          <folding>
+            <marker date="1563203395444" expanded="true" signature="71:195" ph="{...}" />
+            <marker date="1563203395444" expanded="true" signature="146:193" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Products/Implementations/ProductService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1563208005896" expanded="true" signature="6:291" ph="..." />
+            <marker date="1563208005896" expanded="true" signature="354:1529" ph="{...}" />
+            <marker date="1563208005896" expanded="true" signature="419:1527" ph="{...}" />
+            <marker date="1563208005896" expanded="true" signature="504:633" ph="{...}" />
+            <marker date="1563208005896" expanded="true" signature="643:1520" ph="Utils" />
+            <marker date="1563208005896" expanded="true" signature="666:1500" ph="ValidateGet" />
+            <marker date="1563208005896" expanded="true" signature="768:903" ph="{...}" />
+            <marker date="1563208005896" expanded="true" signature="954:1090" ph="{...}" />
+            <marker date="1563208005896" expanded="false" signature="1143:1275" ph="{...}" />
+            <marker date="1563208005896" expanded="true" signature="1339:1480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Products/Interfaces/IProductService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1563197660340" expanded="true" signature="6:89" ph="..." />
+            <marker date="1563197660340" expanded="true" signature="147:284" ph="{...}" />
+            <marker date="1563197660340" expanded="true" signature="197:282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Domain/DomainBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <marker date="1563129735688" expanded="true" signature="29:109" ph="{...}" />
+            <marker date="1563129735688" expanded="true" signature="59:107" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Coupons/Implementations/CouponService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <marker date="1563207880619" expanded="true" signature="6:202" ph="..." />
+            <marker date="1563207880619" expanded="true" signature="264:467" ph="{...}" />
+            <marker date="1563207880619" expanded="true" signature="327:465" ph="{...}" />
+            <marker date="1563207880619" expanded="true" signature="405:459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Campaigns/Implementations/CampaignService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1563205285372" expanded="true" signature="6:204" ph="..." />
+            <marker date="1563205285372" expanded="true" signature="268:501" ph="{...}" />
+            <marker date="1563205285372" expanded="true" signature="335:499" ph="{...}" />
+            <marker date="1563205285372" expanded="true" signature="416:493" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/IDiscountService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <marker date="1563251465316" expanded="true" signature="6:89" ph="..." />
+            <marker date="1563251465316" expanded="true" signature="148:667" ph="{...}" />
+            <marker date="1563251465316" expanded="true" signature="199:665" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Categories/Implementations/CategoryService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <marker date="1563215885641" expanded="true" signature="6:348" ph="..." />
+            <marker date="1563215885641" expanded="true" signature="413:1193" ph="{...}" />
+            <marker date="1563215885641" expanded="true" signature="480:1191" ph="{...}" />
+            <marker date="1563215885641" expanded="true" signature="567:635" ph="{...}" />
+            <marker date="1563215885641" expanded="true" signature="739:907" ph="{...}" />
+            <marker date="1563215885641" expanded="true" signature="918:1185" ph="Utils" />
+            <marker date="1563215885641" expanded="false" signature="941:1165" ph="ValidateGet" />
+            <marker date="1563215885641" expanded="true" signature="1008:1145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/659CD5F0-C4CE-410C-B23A-6CADD71BB76F/c7/7381b7f9/TextWriter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="525" column="24" selection-start-line="525" selection-start-column="24" selection-end-line="525" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/AmountCampaignRuleConditions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1563250800072" expanded="true" signature="39:370" ph="{...}" />
+            <marker date="1563250800072" expanded="true" signature="119:368" ph="{...}" />
+            <marker date="1563250800072" expanded="true" signature="197:277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/Campaign.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <folding>
+            <marker date="1563250804762" expanded="true" signature="39:755" ph="{...}" />
+            <marker date="1563250804762" expanded="true" signature="80:147" ph="{...}" />
+            <marker date="1563250804762" expanded="true" signature="178:321" ph="{...}" />
+            <marker date="1563250804762" expanded="true" signature="367:414" ph="{...}" />
+            <marker date="1563250804762" expanded="true" signature="492:539" ph="{...}" />
+            <marker date="1563250804762" expanded="true" signature="615:667" ph="{...}" />
+            <marker date="1563250804762" expanded="true" signature="701:753" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Domain/Campaigns/RateCampaignRuleConditions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <marker date="1563216198067" expanded="true" signature="39:383" ph="{...}" />
+            <marker date="1563216198067" expanded="true" signature="115:381" ph="{...}" />
+            <marker date="1563216198067" expanded="true" signature="196:286" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCouponDiscountRule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1563252670018" expanded="false" signature="6:123" ph="..." />
+            <marker date="1563252670018" expanded="true" signature="201:577" ph="{...}" />
+            <marker date="1563252670018" expanded="true" signature="269:575" ph="{...}" />
+            <marker date="1563252670018" expanded="true" signature="358:466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Domain/Carts/Cart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <marker date="1563252559255" expanded="true" signature="6:104" ph="..." />
+            <marker date="1563252559255" expanded="true" signature="145:295" ph="{...}" />
+            <marker date="1563252559255" expanded="true" signature="182:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/ProductExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <marker date="1563252786544" expanded="true" signature="6:75" ph="..." />
+            <marker date="1563252786544" expanded="true" signature="126:865" ph="{...}" />
+            <marker date="1563252786544" expanded="true" signature="169:863" ph="{...}" />
+            <marker date="1563252786544" expanded="true" signature="266:524" ph="{...}" />
+            <marker date="1563252786544" expanded="true" signature="385:513" ph="{...}" />
+            <marker date="1563252786544" expanded="true" signature="584:857" ph="{...}" />
+            <marker date="1563252786544" expanded="true" signature="703:846" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Domain/Categories/Category.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1563250902416" expanded="true" signature="6:70" ph="..." />
+            <marker date="1563250902416" expanded="true" signature="112:553" ph="{...}" />
+            <marker date="1563250902416" expanded="true" signature="153:551" ph="{...}" />
+            <marker date="1563250902416" expanded="true" signature="258:399" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Domain/Coupons/Coupon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1563207034859" expanded="true" signature="37:195" ph="{...}" />
+            <marker date="1563207034859" expanded="true" signature="76:193" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Domain/Products/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <marker date="1563252755708" expanded="true" signature="77:388" ph="{...}" />
+            <marker date="1563252755708" expanded="true" signature="117:386" ph="{...}" />
+            <marker date="1563252755708" expanded="true" signature="174:248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Carts/Interfaces/ICartService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <marker date="1563252161768" expanded="true" signature="6:89" ph="..." />
+            <marker date="1563252161768" expanded="true" signature="144:541" ph="{...}" />
+            <marker date="1563252161768" expanded="true" signature="191:539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Carts/Implementations/CartService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+          <folding>
+            <marker date="1563252427574" expanded="true" signature="6:490" ph="..." />
+            <marker date="1563252427574" expanded="true" signature="550:6084" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="609:6082" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="1026:1142" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="1172:1231" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="1308:1504" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="1419:1494" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="1547:1813" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="1880:1945" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="2000:2176" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="2233:2322" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="2379:2443" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="2453:6076" ph="Util" />
+            <marker date="1563252427574" expanded="true" signature="2475:3346" ph="ValidateAddItem" />
+            <marker date="1563252427574" expanded="true" signature="2584:2735" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="2791:2924" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="2989:3128" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="3188:3326" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="3356:5092" ph="Print" />
+            <marker date="1563252427574" expanded="true" signature="3428:3851" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="3603:3794" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="3923:4398" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="4056:4341" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="4448:4525" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="4584:4676" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="4729:4932" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="4984:5072" ph="{...}" />
+            <marker date="1563252427574" expanded="false" signature="5102:5833" ph="Totals" />
+            <marker date="1563252427574" expanded="true" signature="5173:5249" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="5300:5691" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="5738:5813" ph="{...}" />
+            <marker date="1563252427574" expanded="true" signature="5843:6056" ph="Discounts" />
+            <marker date="1563252427574" expanded="true" signature="5916:6036" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Test/Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <marker date="1563253027952" expanded="true" signature="6:613" ph="..." />
+            <marker date="1563253027952" expanded="true" signature="642:6304" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="692:6302" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="707:1091" ph="Properties" />
+            <marker date="1563253027952" expanded="true" signature="1143:1864" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="1918:2038" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="2091:2281" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="2331:2433" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="2492:2778" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="2841:3073" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="3131:3555" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="3603:3781" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="3851:4061" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="4121:4298" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="4362:4541" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="4603:4786" ph="{...}" />
+            <marker date="1563253027952" expanded="false" signature="4797:6296" ph="Utils" />
+            <marker date="1563253027952" expanded="true" signature="4852:5627" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="5678:6041" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="5742:6030" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="6093:6276" ph="{...}" />
+            <marker date="1563253027952" expanded="true" signature="6157:6265" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/AmountCampaignDiscountRule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1563253867915" expanded="false" signature="6:216" ph="..." />
+            <marker date="1563253867915" expanded="true" signature="294:1333" ph="{...}" />
+            <marker date="1563253867915" expanded="true" signature="370:1331" ph="{...}" />
+            <marker date="1563253867915" expanded="true" signature="446:526" ph="{...}" />
+            <marker date="1563253867915" expanded="true" signature="653:1058" ph="{...}" />
+            <marker date="1563253867915" expanded="true" signature="1161:1282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Interfaces/ICampaignDiscountRule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <marker date="1563253855901" expanded="false" signature="6:73" ph="..." />
+            <marker date="1563253855901" expanded="true" signature="132:399" ph="{...}" />
+            <marker date="1563253855901" expanded="true" signature="177:397" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountRules/RateCampaignDiscountRule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1563253883900" expanded="false" signature="6:216" ph="..." />
+            <marker date="1563253883900" expanded="true" signature="294:1375" ph="{...}" />
+            <marker date="1563253883900" expanded="true" signature="366:1373" ph="{...}" />
+            <marker date="1563253883900" expanded="true" signature="445:535" ph="{...}" />
+            <marker date="1563253883900" expanded="true" signature="662:1065" ph="{...}" />
+            <marker date="1563253883900" expanded="true" signature="1168:1319" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Services/Discounts/Implementations/DiscountService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+          <folding>
+            <marker date="1563253931529" expanded="true" signature="6:345" ph="..." />
+            <marker date="1563253931529" expanded="true" signature="409:5708" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="476:5706" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="580:671" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="767:855" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="964:1062" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="1125:1606" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="1273:1522" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="1729:2072" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="2162:2416" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="2502:2626" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="2710:2832" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="2961:3375" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="3101:3334" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="3506:3855" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="3647:3814" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="3989:4096" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="4262:5700" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="4480:4996" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="4630:4982" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="5143:5661" ph="{...}" />
+            <marker date="1563253931529" expanded="true" signature="5293:5647" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDiscountDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1563251186528" expanded="true" signature="98:252" ph="{...}" />
+            <marker date="1563251186528" expanded="true" signature="137:250" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CampaignDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <marker date="1563251140929" expanded="true" signature="98:540" ph="{...}" />
+            <marker date="1563251140929" expanded="true" signature="129:538" ph="{...}" />
+            <marker date="1563251140929" expanded="true" signature="206:283" ph="{...}" />
+            <marker date="1563251140929" expanded="true" signature="403:532" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CartDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <marker date="1563226058296" expanded="true" signature="6:88" ph="..." />
+            <marker date="1563226058296" expanded="true" signature="132:393" ph="{...}" />
+            <marker date="1563226058296" expanded="true" signature="159:391" ph="{...}" />
+            <marker date="1563226058296" expanded="true" signature="190:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/CategoryDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1563206516151" expanded="true" signature="77:273" ph="{...}" />
+            <marker date="1563206516151" expanded="true" signature="108:271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Dtos/Responses/ProductDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1563235450326" expanded="true" signature="77:645" ph="{...}" />
+            <marker date="1563235450326" expanded="true" signature="107:643" ph="{...}" />
+            <marker date="1563235450326" expanded="true" signature="398:637" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CartExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <marker date="1563252981896" expanded="true" signature="6:289" ph="..." />
+            <marker date="1563252981896" expanded="true" signature="340:1053" ph="{...}" />
+            <marker date="1563252981896" expanded="true" signature="380:1051" ph="{...}" />
+            <marker date="1563252981896" expanded="true" signature="440:739" ph="{...}" />
+            <marker date="1563252981896" expanded="true" signature="556:728" ph="{...}" />
+            <marker date="1563252981896" expanded="true" signature="808:1045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingCart.Core/Components/Extensions/CategoryExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <marker date="1563250364937" expanded="false" signature="6:310" ph="..." />
+            <marker date="1563250364937" expanded="true" signature="361:3679" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="405:3677" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="473:788" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="593:777" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="851:1050" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="1111:2084" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="1234:2074" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="2146:3671" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="2304:3635" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="2436:2971" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="2518:2949" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="3088:3620" ph="{...}" />
+            <marker date="1563250364937" expanded="true" signature="3170:3598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

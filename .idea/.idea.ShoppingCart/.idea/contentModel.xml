@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\RiderProjects\ShoppingCart" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ShoppingCart.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Components" t="Include">
+          <e p="Constants" t="Include">
+            <e p="ResourceConstantsExceptions.cs" t="Include" />
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="CartExtension.cs" t="Include" />
+            <e p="CategoryExtension.cs" t="Include" />
+            <e p="ProductExtension.cs" t="Include" />
+          </e>
+          <e p="Helper" t="Include">
+            <e p="StringHelper.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Dtos" t="Include">
+          <e p="Responses" t="Include">
+            <e p="CampaignDiscountDto.cs" t="Include" />
+            <e p="CampaignDto.cs" t="Include" />
+            <e p="CartDto.cs" t="Include" />
+            <e p="CategoryDto.cs" t="Include" />
+            <e p="ProductDto.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Base" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="ServiceBase.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Campaigns" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="CampaignService.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="ICampaignService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Carts" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="CartService.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="ICartService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Categories" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="CategoryService.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="ICategoryService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Coupons" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="CouponService.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="ICouponService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Delivery" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="DeliveryService.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IDeliveryService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Discounts" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="DiscountRules" t="Include">
+                <e p="AmountCampaignDiscountRule.cs" t="Include" />
+                <e p="RateCampaignDiscountRule.cs" t="Include" />
+                <e p="RateCouponDiscountRule.cs" t="Include" />
+              </e>
+              <e p="DiscountService.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="DiscountRules" t="Include">
+                <e p="IAmountCampaignDiscountRule.cs" t="Include" />
+                <e p="IRateCampaignDiscountRule.cs" t="Include" />
+                <e p="IRateCouponDiscountRule.cs" t="Include" />
+              </e>
+              <e p="ICampaignDiscountRule.cs" t="Include" />
+              <e p="ICouponDiscountRule.cs" t="Include" />
+              <e p="IDiscountService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Products" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="ProductService.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IProductService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ShoppingCart.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ShoppingCart.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Campaigns" t="Include">
+          <e p="AmountCampaignRuleConditions.cs" t="Include" />
+          <e p="Campaign.cs" t="Include" />
+          <e p="RateCampaignRuleConditions.cs" t="Include" />
+        </e>
+        <e p="Carts" t="Include">
+          <e p="Cart.cs" t="Include" />
+        </e>
+        <e p="Categories" t="Include">
+          <e p="Category.cs" t="Include" />
+        </e>
+        <e p="Coupons" t="Include">
+          <e p="Coupon.cs" t="Include" />
+        </e>
+        <e p="DomainBase.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Products" t="Include">
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ShoppingCart.Domain.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ShoppingCart.sln" t="IncludeFlat" />
+      <e p="ShoppingCart.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ShoppingCart.Test.csproj" t="IncludeRecursive" />
+        <e p="Tests.cs" t="Include" />
+      </e>
+    </e>
+    <e p="C:\Users\gunesozis\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\gunesozis\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ShoppingCart.1479707499.00" t="ExcludeRecursive" />
+  </component>
+</project>
